@@ -4,8 +4,8 @@
 
 <table border = 1px>
     <tr>
-        <th>OU em Java</th>
-        <th>| ou ||</th>
+        <td>OU em Java</td>
+        <td>| ou ||</td>
     </tr>
     <tr>
         <td>OU em SQL</td>
