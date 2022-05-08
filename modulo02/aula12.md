@@ -42,3 +42,83 @@
         <td><=</td>
     </tr>
 </table>
+<br>
+<pre>
+    public class CursoJava {
+        public static void main(String[] args){
+            int numero1 = 10;
+            int numero2 = 20;
+
+            if (numero1 == numero2){ /*numero1 é igual a número2?*/
+                System.out.println("Os números são iguais");
+            } else {
+                System.out.println("Os números não são iguais");
+            }
+        }
+    }
+
+    public class CursoJava {
+        public static void main(String[] args){
+            int numero1 = 10;
+            int numero2 = 10;
+
+            if (numero1 != numero2){ /*numero1 é diferente do número2?*/
+                System.out.println("Os números são diferentes");
+            } else {
+                System.out.println("Os números são iguais");
+            }
+        }
+    }
+
+    public class CursoJava {
+        public static void main(String[] args){
+            int numero1 = 10;
+            int numero2 = 10;
+
+            if (numero1 > numero2){ /*numero1 é maior que número2?*/
+                System.out.println("O número1 é maior");
+            } else {
+                System.out.println("O número1 não é maior");
+            }
+        }
+    }
+
+    public class CursoJava {
+        public static void main(String[] args){
+            int numero1 = 10;
+            int numero2 = 10;
+
+            if (numero1 < numero2){ /*numero1 é menor que número2?*/
+                System.out.println("O número1 é menor");
+            } else {
+                System.out.println("O número1 não é menor");
+            }
+        }
+    }
+
+    public class CursoJava {
+        public static void main(String[] args){
+            int numero1 = 10;
+            int numero2 = 10;
+
+            if (numero1 >= numero2){ /*numero1 é maior igual que número2?*/
+                System.out.println("O número1 é maior ou igual");
+            } else {
+                System.out.println("O número1 não é maior ou igual");
+            }
+        }
+    }
+
+    public class CursoJava {
+        public static void main(String[] args){
+            int numero1 = 10;
+            int numero2 = 10;
+
+            if (numero1 <= numero2){ /*numero1 é menor igual que número2?*/
+                System.out.println("O número1 é menor ou igual");
+            } else {
+                System.out.println("O número1 não é menor ou igual");
+            }
+        }
+    }
+</pre>
