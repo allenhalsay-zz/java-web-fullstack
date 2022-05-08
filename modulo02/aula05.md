@@ -11,7 +11,7 @@
 <p>Pseudocódigo é uma linguagem mais próxima do ser humano, para converter em linguagem de máquina.</p>
 
 #### PSEUDOCÓDIGO
-´´´
+<pre>
     Média Final = (N1 + N2 + N3 + N4) / 4
 
         Entrada:
@@ -25,11 +25,10 @@
 
         Saída:
         Mostre o resultado da divisão
-
-´´´
+</pre>
 
 #### CÓDIGO
-´´´
+<pre>
     var n1 = 10, n2 = 20, n3 = 30, n4 = 80;
     var resultado = 0;
 
@@ -38,8 +37,7 @@
     saida = resultado;
 
     "Resultado" = 35
-´´´
+</pre>
 
-<p> 
 
 
