@@ -11,7 +11,7 @@ mediaFinalAluno : inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-escreva("Qual a média do aluno")
+escreva("Qual a média do aluno ")
 leia(mediaFinalAluno)
 
 se(mediaFinalAluno >= 70) entao
