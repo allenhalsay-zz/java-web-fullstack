@@ -1,6 +1,6 @@
 #### Tipos de variáveis
 
-<Numérica>
+<p>Numérica</p>
 <blockquote>Variáveis númericas são aquelas que armazenam dados númericos, e pode ser dividas em duas classes.</blockquote>
 
 <p>int</p>
