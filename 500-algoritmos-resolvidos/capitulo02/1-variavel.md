@@ -10,11 +10,11 @@
 5. entre outros
 
 <p>Em algoritmos as variáveis são definidas no início.</p>
-<pre style: border = 1px solid black>
+<pre>
     tipo de variável nome da variável
 </pre>
 <br>
-<pre style: border = 1px solid black>
+<pre>
     int a;
     real b;
     string nome;
