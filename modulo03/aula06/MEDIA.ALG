@@ -1,7 +1,7 @@
 Algoritmo "media"
 // 
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descrição   : Condições aninhadas das notas.
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 5/9/2022
 Var
@@ -26,10 +26,12 @@ leia(nota4)
 mediaFinalAluno <- (nota1 + nota2 + nota3 + nota4) / 4
 escreval ("\nA media final do aluno foi ", mediaFinalAluno)
 
-se(mediaFinalAluno >= 70) entao
-     escreva("Aluno foi Aprovado")
+se(mediaFinalAluno <= 50) entao
+     escreva("Aluno está reprovado")
+senao se (mediaFinaAluno <= 70)
+     escreva("Aluno está de recuperação")
 senao
-     escreva("Aluno foi reprovado")
+     escreva("Aluno está aprovado")
 fimse
 
 
