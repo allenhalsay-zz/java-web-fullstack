@@ -195,3 +195,30 @@
         <td>Operadores Lógicos</td>
     </tr>
 </table>
+
+### Tabela verdade do operador !
+
+<p>A cor da camisa A não é azul</p>
+<p>A cor da camisa B não é amarela</p>
+
+<table border = 1px>
+    <tr>
+        <th>Camisa</th>
+        <th>Cor</th>
+        <th>Saída</th>
+    <tr>
+    <tr>
+        <td>A</td>
+        <td>Azul</td>
+        <td>Falso</td>
+    </tr>
+    <tr>
+        <td>B</td>
+        <td>Verde</td>
+        <td>Verdadeiro</td>
+    </tr>
+</table>
+
+<p>O operador ! inverte a saída</p>
+
+
