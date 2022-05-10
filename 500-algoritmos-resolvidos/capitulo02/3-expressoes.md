@@ -74,3 +74,124 @@
     <tr>
 </table>
 
+<p>Lógica ou booleana</p>
+<blockquote>São expressões lógicas cuja relação ocorre com variáveis do tipo lógico.</blockquote>
+
+<table border = 1px>
+    <tr>
+        <th>Operador</th>
+        <th>Matemática</th>
+        <th>Usaremos</th>
+    <tr>
+    <tr>
+        <td>Conjução</td>
+        <td>e</td>
+        <td>&&</td>
+    </tr>
+    <tr>
+        <td>Disjunção</td>
+        <td>ou</td>
+        <td>||</td>
+    </tr>
+    <tr>
+        <td>Negação</td>
+        <td>nao</td>
+        <td>!</td>
+    </tr>
+</table>
+
+#### Tabela Verdade do Operador &&
+
+<table border = 1px>
+    <tr>
+        <th>Você conhece a linguagem C?</th>
+        <th>Você conhece a linguagem PASCAL?</th>
+        <th>Saída</th>
+    <tr>
+    <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+</table>
+
+<p>O operador && só considera a expressão como verdadeira se todas as expressões testadas forem verdadeiras</p>
+
+#### Tabela Verdade do Operador ||
+
+<table border = 1px>
+    <tr>
+        <th>Você conhece a linguagem C++</th>
+        <th>Você conhece a linguagem JAVA?</th>
+        <th>Saída</th>
+    <tr>
+    <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+</table>
+
+<p>Com o operador || considera como verdadeiro se pelo menos uma expressão testada for verdadeira.</p>
+
+#### Hierarquia
+
+<table border = 1px>
+    <tr>
+        <th>Hierarquia</th>
+    <tr>
+    <tr>
+        <td>Primeiro</td>
+        <td>Parênteses e funções</td>
+    </tr>
+    <tr>
+        <td>Segundo</td>
+        <td>Potência e Resto</td>
+    </tr>
+    <tr>
+        <td>Terceiro</td>
+        <td>Multiplicação e Divisão</td>
+    </tr>
+    <tr>
+        <td>Quarto</td>
+        <td>Adição e Subtração</td>
+    </tr>
+     <tr>
+        <td>Quinto</td>
+        <td>Operadores relacionais</td>
+    </tr>
+     <tr>
+        <td>Sexto</td>
+        <td>Operadores Lógicos</td>
+    </tr>
+</table>
